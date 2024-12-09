@@ -9,6 +9,14 @@
 
   <!-- AOS CSS -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<!--Card Style -->
+  <style>
+    .card-img-top {
+      width: 100%; 
+      height: 200px; 
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
 
@@ -26,7 +34,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#card1">About</a>
           </li>
-          
           <li class="nav-item">
             <a class="nav-link" href="#card2">Programs</a>
           </li>
@@ -48,17 +55,16 @@
   <section class="container py-5">
     <div class="row">
       <!-- Card 1 - About Section -->
-<div class="col-md-4 mb-4" id="card1" data-aos="fade-right" data-aos-delay="100">
-  <div class="card">
-    <img src="images/King-University-Online.jpg" class="card-img-top" alt="Image">
-    <div class="card-body">
-      <h5 class="card-title">Card Title 1 - About</h5>
-      <p class="card-text">Get to know King University.</p>
-      <a href="https://info.online.king.edu/brand/?utm_source=bing&utm_medium=cpc&utm_term=king%20college&utm_campaign=LOU_KU_BRAND_Search-PPC_PaidSearch_Bing_Brand_N_Domestic_Brand_NULL_Evergreen&utm_content=Brand%7CProgram%7CPhrase%7CTargeting&uAdCampgn=LOU_KU_BRAND_Search-PPC_PaidSearch_Bing_Brand_N_Domestic_Brand_NULL_Evergreen&uadgroup=Brand%7CProgram%7CPhrase%7CTargeting&&msclkid=fc620a70dfd11e2b79b86d26bdc02fba&gclid=fc620a70dfd11e2b79b86d26bdc02fba&gclsrc=3p.ds" class="btn btn-primary">Learn More</a>
-    </div>
-  </div>
-</div>
-
+      <div class="col-md-4 mb-4" id="card1" data-aos="fade-right" data-aos-delay="100">
+        <div class="card">
+          <img src="images/King-University-Online.jpg" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 1 - About</h5>
+            <p class="card-text">Get to know King University.</p>
+            <a href="https://info.online.king.edu/brand/?utm_source=bing&utm_medium=cpc&utm_term=king%20college&utm_campaign=LOU_KU_BRAND_Search-PPC_PaidSearch_Bing_Brand_N_Domestic_Brand_NULL_Evergreen&utm_content=Brand%7CProgram%7CPhrase%7CTargeting&uAdCampgn=LOU_KU_BRAND_Search-PPC_PaidSearch_Bing_Brand_N_Domestic_Brand_NULL_Evergreen&uadgroup=Brand%7CProgram%7CPhrase%7CTargeting&&msclkid=fc620a70dfd11e2b79b86d26bdc02fba&gclid=fc620a70dfd11e2b79b86d26bdc02fba&gclsrc=3p.ds" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
 
       <!-- Card 2 - Programs Section -->
       <div class="col-md-4 mb-4" id="card2" data-aos="fade-up" data-aos-delay="200">
@@ -72,18 +78,20 @@
         </div>
       </div>
 
-      
-      <!--Contact Section -->
-<div class="col-md-4 mb-4" id="card3" data-aos="fade-left" data-aos-delay="300">
-  <div class="card">
-    <img src="images/King Programs Pic.png" class="card-img-top" alt="Image">
-    <div class="card-body">
-      <h5 class="card-title">Card Title 3 - Contact</h5>
-      <p class="card-text">Schedule a meeting with our Admissions office today.</p>
-      <a href="https://www.king.edu/contact-us/" class="btn btn-primary">Contact Us</a>
+      <!-- Contact Section -->
+      <div class="col-md-4 mb-4" id="card3" data-aos="fade-left" data-aos-delay="300">
+        <div class="card">
+          <img src="images/King Programs Pic.png" class="card-img-top" alt="Image">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 3 - Contact</h5>
+            <p class="card-text">Schedule a meeting with our Admissions office today.</p>
+            <a href="https://www.king.edu/contact-us/" class="btn btn-primary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </div>
-</div>
+  </section>
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
@@ -96,7 +104,7 @@
 
   <!-- AOS JS -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  
+
   <!-- AOS -->
   <script>
     AOS.init({
